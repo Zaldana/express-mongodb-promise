@@ -1,7 +1,11 @@
 var express = require('express');
 var router = express.Router();
-const { getAllRecipe, createRecipe,updateRecipeById,
-    deleteRecipeById  } = require("./controller/recipeController");
+const { 
+    getAllRecipe, 
+    createRecipe,
+    updateRecipeById,
+    deleteRecipeById  
+} = require("./controller/recipeController");
 
 router.get('/', function (req, res, next) {
 
